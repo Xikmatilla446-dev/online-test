@@ -1,0 +1,38 @@
+
+.countdown {
+    position: relative;
+    padding: 3px;
+    font-size: 1em;
+    margin: 15px auto;
+    width: 100px;
+    height: 100px;
+    font-size:4em;
+    border: 2px green solid;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    line-height:1.8;
+    padding:50px;
+    overflow:hidden;
+    z-index:20;
+
+
+}
+
+.ball-fill {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    z-index: -1;
+    background-color: green;
+
+}
+
+
+
+.ball-fill:hover {
+    background-color: red;
+
+
+}

@@ -42,47 +42,7 @@ class Navbar extends React.Component {
                 <SideDrawer show={this.state.sideDrawerOpen}/>
                 {backdrop}
 
-                <main style={{marginTop: '64px'}}>
-
-                    <h2>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque corporis distinctio iste iure minima
-                        nihil quaerat quisquam quo voluptate. Blanditiis eveniet molestias nihil perspiciatis quia rerum.
-                        Ducimus eius, est.</h2>
-                </main>
-            </div>
+                          </div>
         );
     }
 }

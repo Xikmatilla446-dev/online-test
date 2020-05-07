@@ -1,28 +1,26 @@
-import React from 'react'
-import CheckboxComponent from '../checkbox/Checkbox'
+import React from 'react';
 
-const FormComponent =()=>{
+import dogsData from './data'
+import CheckboxComponent from "../checkbox/Checkbox";
 
-    const [checked, setChecked] = React.useState(true);
+export default function FormComponent() {
+    const [value, setValue] = React.useState('female');
 
     const handleChange = (event) => {
-        setChecked(event.target.checked);
+        setValue(event.target.value);
     };
 
+    return (
+        <div>
+                {dogsData.map((itemSecion, index)=> (
+                            <CheckboxComponent
+                                key={index}
+                                handleChange={handleChange}
+                                value={value}
+                                quatsion={itemSecion.quatsion}
+                                items={itemSecion.item} />
+                ))}
 
-        return (
-            <div style={{ fontFamily: 'system-ui', float: "left" }}>
-                <label>
-                    <CheckboxComponent
-                        checked={checked}
-                        onChange={handleChange}
-                        inputProps={{ 'aria-label': 'primary checkbox' }}
-                    />
-                    <span style={{ marginLeft: 8 }}>Label Text</span>
-                </label>
-            </div>
-        )
-    }
-
-
-export default FormComponent;
+        </div>
+    );
+}
