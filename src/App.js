@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 
 import FormComponent from "./components/form/FormComponent";
@@ -12,13 +12,19 @@ import CountdownTimer from "./components/count-down-timer/CountdownTimer";
 
 
 function App() {
-  return (
+
+
+
+
+    return (
     <div className="App">
         <Navbar/>
         <main style={{marginTop: '100px'}}>
-        <FormComponent/>
-        <CountdownTimer/>
+
+
         </main>
+
+
     </div>
   );
 }

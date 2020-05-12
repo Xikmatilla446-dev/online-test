@@ -10,12 +10,17 @@ function CountdownTimer() {
         counter > 0 && setTimeout(() => setCounter(counter - 1), 1000);
     }, [counter]);
 
-    return (
-        <div className="App">
 
-            <div className="countdown">
-                <p id="timer"> </p>
-                <span className="ball-fill">{counter}</span>
+    return (
+        <div className="timeManger">
+            <br/>
+            <div className="loader-block">
+                <div className="loader-box">
+                    <div className="looader-item"></div>
+                    <div className="looader-item"></div>
+                    <div className="looader-item"></div>
+                    <div className="item">{counter}</div>
+                </div>
             </div>
 
         </div>
