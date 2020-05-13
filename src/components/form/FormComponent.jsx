@@ -15,7 +15,7 @@ const FormComponent = (props) => {
     const [disabled , setDisabled ] = React.useState(null);
     const [id, setId] = React.useState(1);
     const [show, setShow] = React.useState(true);
-    const answers = ['A', 'B', 'C'];
+    const answers = ['A', 'B', 'B', 'A', 'C', 'C', 'D', 'B', 'A', 'G' ];
 
 
     useEffect(()=> {
@@ -30,7 +30,8 @@ const FormComponent = (props) => {
 
     const handleChange = (event) => {
 
-        if (event.target.value === "A" || event.target.value === "B" || event.target.value === "C" ) {
+        if (event.target.value === "A" || event.target.value === "B"
+            || event.target.value === "C" || event.target.value === "D" || event.target.value === "G"   ) {
             setValue(event.target.value);
 
         } else {
