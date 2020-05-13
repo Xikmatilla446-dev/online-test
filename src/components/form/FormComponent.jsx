@@ -90,7 +90,7 @@ const FormComponent = (props) => {
 
 
     return (
-        <div>
+        <div className="section-blog">
             { show ? <h1>Savolar {dogsData.length} ta sizga 1 daqiqa berildi</h1> : null}
                 {show ? dogsData.filter(item => item.id ===id).map((itemSecion, index)=> (
                     <CheckboxComponent
