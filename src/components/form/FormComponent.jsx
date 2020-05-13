@@ -57,7 +57,6 @@ const FormComponent = (props) => {
             let array = result;
             array.push(value);
             setResult(array);
-            console.log(result)
             setId(id + 1);
             setDisabled(false);
             setValue('');
@@ -80,7 +79,6 @@ const FormComponent = (props) => {
              }
 
             setCorrect(arrayItem);
-            console.log(arrayItem)
 
         }
 
